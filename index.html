@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Phishing Awareness Training</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>🛡️ Phishing Awareness Training</h1>
+    <p>Learn how to identify phishing emails, fake websites, and social engineering attacks.</p>
+</header>
+
+<nav>
+    <a href="#what">What is Phishing?</a>
+    <a href="#emails">Phishing Emails</a>
+    <a href="#websites">Fake Websites</a>
+    <a href="#social">Social Engineering</a>
+    <a href="#tips">Safety Tips</a>
+    <a href="#quiz">Quiz</a>
+</nav>
+
+<section id="what">
+    <h2>What is Phishing?</h2>
+    <p>
+        Phishing is a cyberattack where attackers trick users into revealing sensitive
+        information such as passwords, bank details, or personal information.
+    </p>
+
+    <div class="card">
+        <h3>Common Goals of Phishing</h3>
+        <ul>
+            <li>Steal Login Credentials</li>
+            <li>Financial Fraud</li>
+            <li>Identity Theft</li>
+            <li>Install Malware</li>
+        </ul>
+    </div>
+</section>
+
+<section id="emails">
+    <h2>Recognizing Phishing Emails</h2>
+
+    <div class="card">
+        <h3>Warning Signs</h3>
+        <ul>
+            <li>Urgent or threatening language</li>
+            <li>Suspicious sender address</li>
+            <li>Spelling and grammar mistakes</li>
+            <li>Unexpected attachments</li>
+            <li>Fake links</li>
+        </ul>
+    </div>
+
+    <div class="example">
+        <h3>🚨 Example Phishing Email</h3>
+        <p><strong>Subject:</strong> Your Account Will Be Suspended!</p>
+        <p>
+            Dear User,<br>
+            Click immediately to verify your account or it will be permanently locked.
+        </p>
+    </div>
+</section>
+
+<section id="websites">
+    <h2>Fake Websites</h2>
+
+    <div class="card">
+        <h3>How Fake Websites Trick Users</h3>
+        <ul>
+            <li>Copy real website designs</li>
+            <li>Use look-alike URLs</li>
+            <li>Request login credentials</li>
+            <li>Display fake security badges</li>
+        </ul>
+    </div>
+
+    <div class="example">
+        <p><strong>Real:</strong> www.amazon.com</p>
+        <p><strong>Fake:</strong> www.amaz0n-security.com</p>
+    </div>
+</section>
+
+<section id="social">
+    <h2>Social Engineering Tactics</h2>
+
+    <div class="card">
+        <ul>
+            <li><strong>Pretexting:</strong> Pretending to be a trusted person.</li>
+            <li><strong>Baiting:</strong> Offering rewards to trick victims.</li>
+            <li><strong>Scareware:</strong> Fake security warnings.</li>
+            <li><strong>Spear Phishing:</strong> Targeting specific individuals.</li>
+        </ul>
+    </div>
+</section>
+
+<section>
+    <h2>Real-World Example</h2>
+
+    <div class="example">
+        <p>
+            In a famous phishing attack, employees received emails appearing
+            to be from company executives requesting urgent payments.
+            The attackers successfully stole millions of dollars through
+            fraudulent wire transfers.
+        </p>
+    </div>
+</section>
+
+<section id="tips">
+    <h2>Best Practices & Prevention Tips</h2>
+
+    <div class="card">
+        <ul>
+            <li>Verify sender email addresses.</li>
+            <li>Never click suspicious links.</li>
+            <li>Enable Multi-Factor Authentication (MFA).</li>
+            <li>Keep software updated.</li>
+            <li>Use strong, unique passwords.</li>
+            <li>Report suspicious emails.</li>
+        </ul>
+    </div>
+</section>
+
+<section id="quiz">
+    <h2>Interactive Quiz</h2>
+
+    <div class="quiz-box">
+
+        <p>1. Which is a common sign of a phishing email?</p>
+        <input type="radio" name="q1" value="correct"> Urgent action request<br>
+        <input type="radio" name="q1"> Friendly greeting<br><br>
+
+        <p>2. What should you check before entering credentials?</p>
+        <input type="radio" name="q2" value="correct"> Website URL<br>
+        <input type="radio" name="q2"> Background color<br><br>
+
+        <p>3. MFA stands for?</p>
+        <input type="radio" name="q3"> Multi File Access<br>
+        <input type="radio" name="q3" value="correct"> Multi Factor Authentication<br><br>
+
+        <button onclick="checkQuiz()">Submit Quiz</button>
+
+        <h3 id="result"></h3>
+
+    </div>
+</section>
+
+<footer>
+    <p>© 2026 Phishing Awareness Training Module</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
